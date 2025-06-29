@@ -65,4 +65,115 @@ Road Map:
         💡 Startup or product idea in this field?
         🧭 Personal roadmap for 1–3–5 year career planning?
 
+Weekly Planning:
+
+🎓 MOTOR / ENERGY CONTROL: FROM BEGINNER TO ADVANCED
+
+🔹 PHASE 1 — FOUNDATION LEVEL (Weeks 1–4)
+
+✅ Topics:
+Basics of electrical machines
+Types of motors: DC, Induction, BLDC, PMSM, SRM
+Introduction to Power Electronics
+Basics of Motor Drives
+Understanding PWM, inverter topologies, and gate driving
+
+✅ Resources:
+
+Book: Electric Machinery Fundamentals by Stephen Chapman
+YouTube: MIT OCW – Introduction to Electric Machines
+Tool: Learn to simulate circuits in LTSpice, PSIM, or TINA-TI
+
+✅ Practice:
+
+Simulate a DC motor with simple voltage control.
+Blink a PWM signal with Arduino to drive a small DC motor.
+
+🔹 PHASE 2 — CONTROL TECHNIQUES (Weeks 5–10)
+
+✅ Topics:
+
+Speed and torque control of motors
+Introduction to PID control and tuning
+Sensor-based vs Sensorless control
+Introduction to Field-Oriented Control (FOC) and Direct Torque Control (DTC)
+
+✅ Resources:
+
+Book: Modern Electric Vehicle Technology by Chan & Chau (for control overview)
+MATLAB Simulink: Motor Control examples in the Simscape Electrical toolbox
+STMicroelectronics / Texas Instruments motor control application notes
+
+
+✅ Practice:
+
+Design a PID-based speed controller for DC motor in MATLAB.
+Build and test BLDC control using Arduino + Hall sensors.
+
+🔹 PHASE 3 — EMBEDDED IMPLEMENTATION (Weeks 11–16)
+
+✅ Topics:
+
+Real-time motor control using C/C++ on STM32 or TI LaunchPad
+Working with FOC libraries (e.g., ST MCSDK or TI InstaSPIN)
+Motor start-up sequencing, protection, and efficiency optimization
+
+✅ Tools:
+
+STM32CubeMX + STM32 Motor Control Workbench
+TI InstaSPIN or C2000 platform
+Use Oscilloscope and current probes (if available) to measure response
+
+✅ Practice:
+
+Implement closed-loop speed control on a BLDC or PMSM.
+Measure efficiency and create plots of torque vs speed.
+
+🔹 PHASE 4 — ADVANCED CONTROL & ENERGY SYSTEMS (Weeks 17–24)
+
+✅ Topics:
+
+Model Predictive Control (MPC) of motors
+AI-assisted control (e.g., Neural Networks, Fuzzy logic in control loops)
+Regenerative braking and energy harvesting in EVs
+Integration with Battery Management Systems (BMS)
+Sensorless FOC using back-EMF or flux estimation
+
+✅ Tools:
+
+MATLAB: MPC Toolbox, Reinforcement Learning Toolbox
+Python: Use PyTorch to model neural controllers
+PLECS for high-fidelity power electronics and thermal simulation
+
+✅ Practice:
+
+Implement an MPC algorithm in simulation for torque control.
+Design a controller for a bidirectional inverter for regen braking.
+Study efficiency maps for your motor drive.
+
+🔹 PHASE 5 — PUBLICATION / PROJECT PHASE (Weeks 25–32)
+
+✅ Target Outcomes:
+
+Write a Q1-level article or conference paper.
+Possible Topics:
+“Sensorless FOC for PMSM Using Embedded AI Techniques”
+“Regenerative Braking Control with Bidirectional Inverter for EV Applications”
+“Comparative Study of FOC and DTC in Low-Speed Operation of PMSM”
+
+
+✅ Bonus:
+
+Add hardware-in-the-loop (HIL) simulation with dSPACE or Typhoon HIL (if your lab has access).
+Submit to IEEE Transactions on Industrial Electronics, IECON, or IET Electric Power Applications.
+
+📘 Your Personal Study Tools
+
+Tool	Purpose
+
+MATLAB/Simulink	Full motor control simulations and embedded coder
+PLECS	Advanced power electronics simulation
+LTSpice/TINA-TI	Fast analog circuit simulation
+STM32 or TI C2000	Embedded motor control implementation
+Oscilloscope + Current Probe	Real measurement of torque, current, voltage
 
